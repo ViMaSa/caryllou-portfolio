@@ -1,7 +1,7 @@
-import './App.css';
+import './App.scss';
 import { Route, Routes} from 'react-router-dom';
 import About from './components/about';
-import Home from './components/home';
+import Home from './components/home/home';
 import Layout from './components/layout/layout';
 import NoMatch from './components/noMatch';
 

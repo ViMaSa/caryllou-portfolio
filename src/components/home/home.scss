@@ -1,0 +1,25 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spelling {
+  font: normal normal normal 48px/68px Adobe Garamond Pro;
+  letter-spacing: 0.72px;
+  color: #FFF3E8;
+  opacity: 1;
+}
+
+.annunciation {
+  font: normal normal 300 23px/28px Europa-Light;
+  letter-spacing: 0.34px;
+  color: #FFF3E8;
+  opacity: 1;
+}
+
+#arrow {
+  color: #FFF3E8;
+  align-self: center;
+}

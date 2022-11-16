@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 4.75rem;
+  justify-content: space-between;
+};
+
+li {
+  list-style: none;
+}
+
+.homeButton {
+  padding: 1rem;
+}
+
+.homeButton p {
+  font: normal normal normal 30px/42px Adobe Garamond Pro;
+  letter-spacing: 0px;
+  color: #FFF3E8;
+  opacity: 1;
+}

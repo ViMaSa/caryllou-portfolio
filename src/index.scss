@@ -1,5 +1,6 @@
 * {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,12 +10,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-li {
-  list-style: none;
-  display: list-item;
-  margin-left: 1em;
+  background: transparent linear-gradient(58deg, #A5B49D 0%, #237198 11%, #7D9F9B 63%, #237198 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
 }
 
 code {

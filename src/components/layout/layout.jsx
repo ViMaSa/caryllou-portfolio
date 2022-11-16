@@ -1,11 +1,13 @@
 import { Link, Outlet } from "react-router-dom";
-import './layout.css'
+import './layout.scss'
 
 const Layout = () => {
   return (
     <>
       <nav>
-        <Link to='/'><p>clp.</p></Link>
+        <div className="homeButton">
+          <Link to='/' ><p>clp.</p></Link>
+        </div>
         <ul>
           <li>
             <Link to='/'>Home</Link>
