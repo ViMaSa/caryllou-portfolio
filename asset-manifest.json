@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/caryllou-portfolio/static/css/main.5e39740c.css",
+    "main.css": "/caryllou-portfolio/static/css/main.630e2a2d.css",
     "main.js": "/caryllou-portfolio/static/js/main.de400225.js",
     "static/js/787.354e3171.chunk.js": "/caryllou-portfolio/static/js/787.354e3171.chunk.js",
     "static/media/logo.svg": "/caryllou-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/caryllou-portfolio/index.html",
-    "main.5e39740c.css.map": "/caryllou-portfolio/static/css/main.5e39740c.css.map",
+    "main.630e2a2d.css.map": "/caryllou-portfolio/static/css/main.630e2a2d.css.map",
     "main.de400225.js.map": "/caryllou-portfolio/static/js/main.de400225.js.map",
     "787.354e3171.chunk.js.map": "/caryllou-portfolio/static/js/787.354e3171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e39740c.css",
+    "static/css/main.630e2a2d.css",
     "static/js/main.de400225.js"
   ]
 }
