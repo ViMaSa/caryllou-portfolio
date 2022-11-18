@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: transparent linear-gradient(58deg, #A5B49D 0%, #237198 11%, #7D9F9B 63%, #237198 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
 }
 
 .spelling {
@@ -19,7 +22,11 @@
   opacity: 1;
 }
 
-#arrow {
+#arrowSvg {
   color: #FFF3E8;
-  align-self: center;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
 }
