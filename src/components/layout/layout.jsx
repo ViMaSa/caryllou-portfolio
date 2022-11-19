@@ -4,7 +4,7 @@ import './layout.scss'
 const Layout = () => {
   return (
     <>
-      <nav className="slideUp">
+      <nav>
         <div className="homeButton">
           <Link to='/' ><p>clp.</p></Link>
         </div>

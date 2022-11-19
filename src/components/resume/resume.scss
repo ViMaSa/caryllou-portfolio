@@ -1,0 +1,62 @@
+#resume {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.25rem;
+}
+
+.resume-section {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.resume-section .section-heading {
+  text-align: center;
+  font-family: Garamond;
+  font-size: 1.5rem;
+  letter-spacing: 0.55px;
+  color: #484848;
+  opacity: 1;
+}
+
+.resume-section .section-description {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  letter-spacing: .025em;
+  color: #484848;
+  margin: 15px 0;
+  opacity: 1;
+}
+
+#resume .rectangle {
+  border: 1px solid #A5B49D;
+  margin: 0 70px;
+  opacity: 1;
+}
+
+.experience {
+  margin-bottom: 30px;
+}
+
+.footer-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 4rem 0;
+}
+
+.footer-link {
+  text-decoration: underline;
+  font: normal normal normal 16px/22px Garamond;
+  letter-spacing: 0.4px;
+  color: #237198;
+  opacity: 1;
+}
+
+#footer-rectangle {
+  margin: 0 auto;
+  height: 1rem;
+  background: transparent linear-gradient(180deg, #A5B49D 0%, #237198 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
