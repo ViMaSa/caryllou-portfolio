@@ -6,7 +6,7 @@
 }
 
 .resume-section {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
   text-align: center;
 }
 
@@ -29,21 +29,8 @@
   opacity: 1;
 }
 
-#resume .rectangle {
-  border: 1px solid #A5B49D;
-  margin: 0 70px;
-  opacity: 1;
-}
-
 .experience {
   margin-bottom: 30px;
-}
-
-.footer-links-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 4rem 0;
 }
 
 .footer-link {

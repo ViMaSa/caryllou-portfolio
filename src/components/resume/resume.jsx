@@ -61,8 +61,8 @@ const Resume = () => {
             </p>
           </div>
         </section>
-        <div className='rectangle'/>
       </main>
+      <div className='rectangle'/>
       <footer>
         <div className='footer-links-container'>
           <span>

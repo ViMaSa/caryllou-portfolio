@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#candid-container {
+  margin-bottom: 3.5rem;
+}
+
+#about-heading {
+  font: normal normal normal 34px/48px Garamond;
+  letter-spacing: 0.51px;
+  color: #237198;
+}
+
+#about-description {
+  font: normal normal 300 16px/19px 'Nunito', sans-serif;
+  letter-spacing: 0.4px;
+  color: #484848;
+  opacity: 1;
+  margin: 2rem 1.75rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main .rectangle {
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font: normal normal 300 14px/20px 'Nunito', sans-serif;
+  letter-spacing: 0.35px;
+  color: #484848;
+  opacity: 1;
+  margin-top: 3rem;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socials-container a {
+  margin: 1rem .5rem;
+}
