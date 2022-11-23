@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/caryllou-portfolio/static/css/main.d3a551a7.css",
-    "main.js": "/caryllou-portfolio/static/js/main.4a0e4709.js",
+    "main.css": "/caryllou-portfolio/static/css/main.654d4729.css",
+    "main.js": "/caryllou-portfolio/static/js/main.d5c49c05.js",
     "static/js/787.354e3171.chunk.js": "/caryllou-portfolio/static/js/787.354e3171.chunk.js",
     "static/media/about.png": "/caryllou-portfolio/static/media/about.719a06e6949fc3393e21.png",
+    "static/media/DigitalJournal.png": "/caryllou-portfolio/static/media/DigitalJournal.a398538eaf8048ddd368.png",
+    "static/media/Colliers.png": "/caryllou-portfolio/static/media/Colliers.10dfe01f277a6d3b321e.png",
     "static/media/Adobe Garamond Pro Regular.ttf": "/caryllou-portfolio/static/media/Adobe Garamond Pro Regular.9b0413a839f8514dc24b.ttf",
+    "static/media/Trek.png": "/caryllou-portfolio/static/media/Trek.fa5da5ab4f9ca14d2e77.png",
+    "static/media/LifeAquatic.png": "/caryllou-portfolio/static/media/LifeAquatic.a8f4475900f74b5983e3.png",
     "static/media/Icon awesome-instagram.svg": "/caryllou-portfolio/static/media/Icon awesome-instagram.6f0dcc2f5e43bff1b8358bfeadc8a4e6.svg",
     "static/media/Icon awesome-behance-square.svg": "/caryllou-portfolio/static/media/Icon awesome-behance-square.562946b5c393f757fa4e31dd5fc491fd.svg",
     "index.html": "/caryllou-portfolio/index.html",
     "static/media/Icon feather-mail.svg": "/caryllou-portfolio/static/media/Icon feather-mail.f62b3dcad5cbbb7fda243ee985c238d2.svg",
     "static/media/Icon awesome-linkedin.svg": "/caryllou-portfolio/static/media/Icon awesome-linkedin.03dced1b215ea8a12540db653a6c1f68.svg",
-    "main.d3a551a7.css.map": "/caryllou-portfolio/static/css/main.d3a551a7.css.map",
-    "main.4a0e4709.js.map": "/caryllou-portfolio/static/js/main.4a0e4709.js.map",
+    "main.654d4729.css.map": "/caryllou-portfolio/static/css/main.654d4729.css.map",
+    "main.d5c49c05.js.map": "/caryllou-portfolio/static/js/main.d5c49c05.js.map",
     "787.354e3171.chunk.js.map": "/caryllou-portfolio/static/js/787.354e3171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3a551a7.css",
-    "static/js/main.4a0e4709.js"
+    "static/css/main.654d4729.css",
+    "static/js/main.d5c49c05.js"
   ]
 }
