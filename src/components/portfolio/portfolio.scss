@@ -1,0 +1,28 @@
+#portfolio-page-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+.project-number {
+  font: normal normal normal 49px/69px Garamond;
+  letter-spacing: 0px;
+  color: #484848;
+  margin: 0.5rem;
+  opacity: 1;
+}
+
+.project-heading-line {
+  border: 1px solid #A5B49D;
+  opacity: 1;
+}
+
+.project-title {
+  font: normal normal normal 20px/29px Garamond;
+  letter-spacing: 0px;
+  color: #484848;
+  margin: 1rem 0;
+  opacity: 1;
+}

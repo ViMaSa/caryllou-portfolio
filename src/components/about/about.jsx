@@ -44,7 +44,7 @@ const About = () => {
             <Link to='/resume'><p className='footer-link'>resume</p></Link>
           </span>
         </div>
-        <div id='footer-rectangle'/>
+        <div className='footer-rectangle'/>
       </footer>
     </>
   )

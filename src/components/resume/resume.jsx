@@ -72,7 +72,7 @@ const Resume = () => {
             <Link to='/about'><p className='footer-link'>about</p></Link>
           </span>
         </div>
-        <div id='footer-rectangle'/>
+        <div className='footer-rectangle'/>
       </footer>
     </>
   )
