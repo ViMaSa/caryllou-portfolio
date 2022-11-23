@@ -9,40 +9,40 @@ const PortfolioPage = () => {
     <>
       <main id="portfolio-page-main">
         <Link to='digital-journal'>
-          <section className="project-section">
+          <section className="project-section slideRight">
             <div className="project-section-heading">
               <p className="project-number">01</p>
-              <div className="project-heading-line"></div>
+              <div className="project-heading-line" />
             </div>
             <p className="project-title">Digital Journal</p>
             <img src={digitalJournalCover} alt="Digital Journal Cover" />
           </section>
         </Link>
         <Link to='colliers'>
-          <section className="project-section">
+          <section className="project-section slideLeft">
             <div className="project-section-heading">
               <p className="project-number">02</p>
-              <div className="project-heading-line"></div>
+              <div className="project-heading-line" />
             </div>
             <p className="project-title">Colliers</p>
             <img src={colliersCover} alt="Colliers Cover" />
           </section>
         </Link>
         <Link to='trek-for-trees'>
-          <section className="project-section">
+          <section className="project-section slideRight">
             <div className="project-section-heading">
               <p className="project-number">03</p>
-              <div className="project-heading-line"></div>
+              <div className="project-heading-line" />
             </div>
             <p className="project-title">Trek for Trees</p>
             <img src={trekForTreesCover} alt="Trek for Trees Cover" />
           </section>
         </Link>
         <Link to='life-aquatic'>
-          <section className="project-section">
+          <section className="project-section slideLeft">
             <div className="project-section-heading">
               <p className="project-number">04</p>
-              <div className="project-heading-line"></div>
+              <div className="project-heading-line" />
             </div>
             <p className="project-title">Life Aquatic</p>
             <img src={lifeAquaticCover} alt="Life Aquatic Cover" />

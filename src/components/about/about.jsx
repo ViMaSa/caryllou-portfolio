@@ -31,10 +31,10 @@ const About = () => {
       <footer>
         <p>Find me here:</p>
         <div className='socials-container'>
-          <a href="https://mail.google.com/" target='_blank' rel='noreferrer'><img src={emailIcon} alt="E-mail icon" /></a>
-          <a href="https://www.instagram.com/" target='_blank' rel='noreferrer'><img src={instagramIcon} alt="Instagram icon" /></a>
-          <a href="https://www.linkedin.com/" target='_blank' rel='noreferrer'><img src={linkedInIcon} alt="LinkedIn icon" /></a>
-          <a href="https://www.behance.net/" target='_blank' rel='noreferrer'><img src={behanceIcon} alt="Behance icon" /></a>
+          <a href='mailto: clpaayas@gmail.com'><img src={emailIcon} alt="E-mail icon" /></a>
+          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'><img src={instagramIcon} alt='Instagram icon' /></a>
+          <a href='https://www.linkedin.com/' target='_blank' rel='noreferrer'><img src={linkedInIcon} alt='LinkedIn icon' /></a>
+          <a href='https://www.behance.net/' target='_blank' rel='noreferrer'><img src={behanceIcon} alt='Behance icon' /></a>
         </div>
         <div className='footer-links-container'>
           <span>

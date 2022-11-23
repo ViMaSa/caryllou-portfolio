@@ -10,7 +10,7 @@ import Resume from './components/resume/resume';
 
 function App() {
   return (
-    <div className='slideUp'>
+    <div>
       <Routes>
         <Route path='' element={<Home />} />
         <Route path='/' element={<Layout />}>
