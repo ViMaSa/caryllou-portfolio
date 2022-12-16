@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/caryllou-portfolio/static/css/main.c8fe4bcb.css",
-    "main.js": "/caryllou-portfolio/static/js/main.0707c650.js",
+    "main.css": "/caryllou-portfolio/static/css/main.f5c5a49f.css",
+    "main.js": "/caryllou-portfolio/static/js/main.8db7d9a9.js",
     "static/js/787.354e3171.chunk.js": "/caryllou-portfolio/static/js/787.354e3171.chunk.js",
     "static/media/about.png": "/caryllou-portfolio/static/media/about.719a06e6949fc3393e21.png",
+    "static/media/Trek_FullMockups.png": "/caryllou-portfolio/static/media/Trek_FullMockups.36201d6ad5d1352328cf.png",
     "static/media/Spread3.png": "/caryllou-portfolio/static/media/Spread3.926c51538f011a620a94.png",
     "static/media/Spread1.png": "/caryllou-portfolio/static/media/Spread1.601890aec7d556522fde.png",
     "static/media/Spread5.png": "/caryllou-portfolio/static/media/Spread5.e405fb2b976597483ec4.png",
@@ -13,6 +14,7 @@
     "static/media/Spread7.png": "/caryllou-portfolio/static/media/Spread7.953299cf178d646778be.png",
     "static/media/MonthlyPerkPosters.png": "/caryllou-portfolio/static/media/MonthlyPerkPosters.2eb2aee0bd958e973d31.png",
     "static/media/Spread4.png": "/caryllou-portfolio/static/media/Spread4.54da1d013d414989191a.png",
+    "static/media/Book_FullMockup.png": "/caryllou-portfolio/static/media/Book_FullMockup.b54596e40e3b3cbaa2a1.png",
     "static/media/Spread2.png": "/caryllou-portfolio/static/media/Spread2.1e223b9903093c14fac3.png",
     "static/media/Colliers.png": "/caryllou-portfolio/static/media/Colliers.10dfe01f277a6d3b321e.png",
     "static/media/Adobe Garamond Pro Regular.ttf": "/caryllou-portfolio/static/media/Adobe Garamond Pro Regular.9b0413a839f8514dc24b.ttf",
@@ -20,9 +22,14 @@
     "static/media/Trek.png": "/caryllou-portfolio/static/media/Trek.fa5da5ab4f9ca14d2e77.png",
     "static/media/Group 18.png": "/caryllou-portfolio/static/media/Group 18.54a61c74d447d6421415.png",
     "static/media/brochures.png": "/caryllou-portfolio/static/media/brochures.0e8ffaa18ebabae8f799.png",
+    "static/media/Postcard.png": "/caryllou-portfolio/static/media/Postcard.0aae44edffd2a2f31881.png",
     "static/media/WILLMORE_Holiday_GIF.png": "/caryllou-portfolio/static/media/WILLMORE_Holiday_GIF.0bbe186e75fe22963097.png",
+    "static/media/Takeaway.png": "/caryllou-portfolio/static/media/Takeaway.628632fd0fa33d1543bb.png",
     "static/media/Eblast_2.png": "/caryllou-portfolio/static/media/Eblast_2.7ac5563bbe817a440f10.png",
     "static/media/Narrative.png": "/caryllou-portfolio/static/media/Narrative.314b522b2455b2134b90.png",
+    "static/media/LogoDev_3.png": "/caryllou-portfolio/static/media/LogoDev_3.b30b6e216eec81a491d9.png",
+    "static/media/LogoDev_2.png": "/caryllou-portfolio/static/media/LogoDev_2.320096e92e8fd2300b4a.png",
+    "static/media/LogoDev_1.png": "/caryllou-portfolio/static/media/LogoDev_1.469f3d3d1cb8bed1c67c.png",
     "static/media/WILLMORE_HappyNewYear2021_EMAIL_HQ.png": "/caryllou-portfolio/static/media/WILLMORE_HappyNewYear2021_EMAIL_HQ.a2b0b830646f16889028.png",
     "static/media/OFFICE1_HappyHolidays2020_EMAIL_HQ-2.png": "/caryllou-portfolio/static/media/OFFICE1_HappyHolidays2020_EMAIL_HQ-2.510ff745dc8b38410e7e.png",
     "static/media/LifeAquatic.png": "/caryllou-portfolio/static/media/LifeAquatic.a8f4475900f74b5983e3.png",
@@ -31,12 +38,12 @@
     "index.html": "/caryllou-portfolio/index.html",
     "static/media/Icon feather-mail.svg": "/caryllou-portfolio/static/media/Icon feather-mail.f62b3dcad5cbbb7fda243ee985c238d2.svg",
     "static/media/Icon awesome-linkedin.svg": "/caryllou-portfolio/static/media/Icon awesome-linkedin.03dced1b215ea8a12540db653a6c1f68.svg",
-    "main.c8fe4bcb.css.map": "/caryllou-portfolio/static/css/main.c8fe4bcb.css.map",
-    "main.0707c650.js.map": "/caryllou-portfolio/static/js/main.0707c650.js.map",
+    "main.f5c5a49f.css.map": "/caryllou-portfolio/static/css/main.f5c5a49f.css.map",
+    "main.8db7d9a9.js.map": "/caryllou-portfolio/static/js/main.8db7d9a9.js.map",
     "787.354e3171.chunk.js.map": "/caryllou-portfolio/static/js/787.354e3171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8fe4bcb.css",
-    "static/js/main.0707c650.js"
+    "static/css/main.f5c5a49f.css",
+    "static/js/main.8db7d9a9.js"
   ]
 }
