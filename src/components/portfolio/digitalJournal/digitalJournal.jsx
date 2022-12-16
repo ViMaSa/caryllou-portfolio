@@ -13,24 +13,20 @@ const DigitalJournal = () => {
   return (
     <>
       <main className='digital-journal-main'>
-        <section className='digital-journal-section'>
-          <div className='digital-journal-heading'>
-            <p className="project-number">01</p>
-            <div className="project-heading-line" />
-            <p className="project-title">Digital Journal</p>
-            <div className="project-heading-line" />
-          </div>
-          <p className='digital-journal-description'>
-            This is a passion project that documents 2021.
-            <br /><br />
-            My goal was to design as much as possible in my free time and to explore design
-            without any constraints you would normally face when working on a project for a client.
-            <br /><br />
-            Photos used were taken with a point and shoot camera, as I also wanted to learn more
-            about shooting with and developing film. Featured here a several spreads with varying
-            layouts.
-          </p>
-        </section>
+        <p className="project-number">01</p>
+        <div className="project-heading-line" />
+        <p className="project-title">Digital Journal</p>
+        <div className="project-heading-line" />
+        <p className='project-description project-description-font'>
+          This is a passion project that documents 2021.
+          <br /><br />
+          My goal was to design as much as possible in my free time and to explore design
+          without any constraints you would normally face when working on a project for a client.
+          <br /><br />
+          Photos used were taken with a point and shoot camera, as I also wanted to learn more
+          about shooting with and developing film. Featured here a several spreads with varying
+          layouts.
+        </p>
         <section className='digital-journal-images-container'>
           <img src={digitalJournalCover} alt="Digital Journal Cover" className='digital-journal-image'/>
           <img src={digitalJournalS1} alt="Digital Journal Spread 1" className='digital-journal-image'/>

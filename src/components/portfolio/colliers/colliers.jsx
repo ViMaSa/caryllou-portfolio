@@ -14,57 +14,53 @@ const Colliers = () => {
   return (
     <>
       <main className='colliers-main'>
-        <section className='colliers-section'>
-          <div className='colliers-heading'>
-            <p className="project-number">02</p>
-            <div className="project-heading-line" />
-            <p className="project-title">Colliers</p>
-            <div className="project-heading-line" />
-          </div>
-          <p className='colliers-description'>
-            Colliers is a commercial real estate company. As a graphic designer for them, I worked
-            with the design manager and brokers to create materials such as brochures, email
-            campaigns, social assets, and posters.
+        <p className='project-number'>02</p>
+        <div className='project-heading-line' />
+        <p className='project-title'>Colliers</p>
+        <div className='project-heading-line' />
+        <p className='project-description project-description-font'>
+          Colliers is a commercial real estate company. As a graphic designer for them, I worked
+          with the design manager and brokers to create materials such as brochures, email
+          campaigns, social assets, and posters.
+        </p>
+        <section className='colliers-images-container'>
+          <img src={brochures} alt='Brochures' className='colliers-image'/>
+          <img src={eBlast1} alt='E-Blasts1' className='colliers-image'/>
+        </section>
+        <div>
+          <p className='colliers-section-header'>Colliers Branded Projects</p>
+          <p className='colliers-section-description'>
+            Most marketing materials adhere to branding guidelines. However, the layout of a page
+            varies depending on the content provided.
           </p>
-        </section>
+        </div>
         <section className='colliers-images-container'>
-          <img src={brochures} alt="Brochures" className='colliers-image'/>
-          <img src={eBlast1} alt="E-Blasts1" className='colliers-image'/>
+          <img src={narrative} alt='Narrative' className='colliers-image'/>
+          <img src={eBlast2} alt='E-Blasts2' className='colliers-image'/>
+          <img src={group18} alt='Group 18' className='colliers-image'/>
         </section>
-          <div>
-            <p className='colliers-section-header'>Colliers Branded Projects</p>
-            <p className='colliers-section-description'>
-              Most marketing materials adhere to branding guidelines.However, the layout of a page
-              varies depending on the content provided.
-            </p>
-          </div>
+        <div>
+          <p className='colliers-section-header'>Custom Projects</p>
+          <p className='colliers-section-description'>
+            Properties receive custom marketing collaterals depending on factors such as price,
+            building size, location, or who the client is.
+          </p>
+        </div>
         <section className='colliers-images-container'>
-          <img src={narrative} alt="Narrative" className='colliers-image'/>
-          <img src={eBlast2} alt="E-Blasts2" className='colliers-image'/>
-          <img src={group18} alt="Group 18" className='colliers-image'/>
+          <img src={willmoreHoliday} alt='Willmore Holiday' className='colliers-image'/>
+          <div className='image-container-short'>
+            <img src={happyNewYear2020} alt='Happy New Year 2020' className='colliers-image'/>
+            <img src={officeHoliday2020} alt='Office Holiday 2020' className='colliers-image'/>
+          </div>
+          <img src={monthlyPerkPosters} alt='Monthly Perk Poster' className='colliers-image'/>
         </section>
-          <div>
-            <p className='colliers-section-header'>Custom Projects</p>
-            <p className='colliers-section-description'>
-              Properties receive custom marketing collaterals depending on factors such as price,
-              building size, location, or who the client is.
-            </p>
-          </div>
-        <section className='colliers-images-container'>
-          <img src={willmoreHoliday} alt="Willmore Holiday" className='colliers-image'/>
-          <div className='colliers-image-short'>
-            <img src={happyNewYear2020} alt="Happy New Year 2020" className='colliers-image'/>
-            <img src={officeHoliday2020} alt="Office Holiday 2020" className='colliers-image'/>
-          </div>
-          <img src={monthlyPerkPosters} alt="Monthly Perk Poster" className='colliers-image'/>
-        </section>
-          <div>
-            <p className='colliers-section-header'>In-House Projects</p>
-            <p className='colliers-section-description'>
-              In-house projects consisted of posters of events happening in the office. It also
-              includes social assets created for different broker teams, such as holiday greetings.
-            </p>
-          </div>
+        <div>
+          <p className='colliers-section-header'>In-House Projects</p>
+          <p className='colliers-section-description'>
+            In-house projects consisted of posters of events happening in the office. It also
+            includes social assets created for different broker teams, such as holiday greetings.
+          </p>
+        </div>
       </main>
       <footer>
         <footer className='footer-links-container'>
@@ -75,7 +71,7 @@ const Colliers = () => {
           </span>
           <span>
             <Link to='/portfolio/trek-for-trees'>
-              <p className='footer-link'>{'02. Trek for Trees >>'}</p>
+              <p className='footer-link'>{'03. Trek for Trees >>'}</p>
             </Link>
           </span>
         </footer>
