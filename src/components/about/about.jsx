@@ -1,17 +1,31 @@
 import './about.scss';
-import candidPhoto from './about-assets/about.png';
-import emailIcon from './about-assets/Icon feather-mail.svg';
-import instagramIcon from './about-assets/Icon awesome-instagram.svg';
-import linkedInIcon from './about-assets/Icon awesome-linkedin.svg';
-import behanceIcon from './about-assets/Icon awesome-behance-square.svg';
 import { Link } from 'react-router-dom';
+import {
+  aboutCandid,
+  aboutCandid_2x,
+  emailIcon,
+  instagramIcon,
+  linkedInIcon,
+  behanceIcon,
+} from '../../assets/images';
 
 const About = () => {
   return (
     <>
       <main>
         <div id='candid-container'>
-          <img src={candidPhoto} alt="Caryl Lou Paayas" />
+          <img
+            alt='Caryl Lou Paayas'
+            src={aboutCandid}
+            srcSet={`
+              ${aboutCandid} 428w,
+              ${aboutCandid_2x} 856w
+            `}
+            sizes='
+              (max-width: 600px) 428px,
+              856px
+            '
+          />
         </div>
         <section>
           <p id='about-heading'>hey, hi, hello!</p>

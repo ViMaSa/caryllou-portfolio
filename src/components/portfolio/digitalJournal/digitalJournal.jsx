@@ -1,23 +1,32 @@
 import { Link } from 'react-router-dom';
-import './digitalJournal.scss'
-import digitalJournalCover from './digitalJournal-assets/cover.png'
-import digitalJournalS1 from './digitalJournal-assets/Spread1.png'
-import digitalJournalS2 from './digitalJournal-assets/Spread2.png'
-import digitalJournalS3 from './digitalJournal-assets/Spread3.png'
-import digitalJournalS4 from './digitalJournal-assets/Spread4.png'
-import digitalJournalS5 from './digitalJournal-assets/Spread5.png'
-import digitalJournalS6 from './digitalJournal-assets/Spread6.png'
-import digitalJournalS7 from './digitalJournal-assets/Spread7.png'
+import {
+  digitalJournalCover,
+  digitalJournalSpread1,
+  digitalJournalSpread2,
+  digitalJournalSpread3,
+  digitalJournalSpread4,
+  digitalJournalSpread5,
+  digitalJournalSpread6,
+  digitalJournalSpread7,
+  digitalJournalCover_2x,
+  digitalJournalSpread1_2x,
+  digitalJournalSpread2_2x,
+  digitalJournalSpread3_2x,
+  digitalJournalSpread4_2x,
+  digitalJournalSpread5_2x,
+  digitalJournalSpread6_2x,
+  digitalJournalSpread7_2x,
+} from '../../../assets/images';
 
 const DigitalJournal = () => {
   return (
     <>
-      <main className='digital-journal-main'>
+      <main className='project-main'>
         <p className="project-number">01</p>
         <div className="project-heading-line" />
         <p className="project-title">Digital Journal</p>
         <div className="project-heading-line" />
-        <p className='project-description project-description-font'>
+        <p className='project-margin project-description-font'>
           This is a passion project that documents 2021.
           <br /><br />
           My goal was to design as much as possible in my free time and to explore design
@@ -27,15 +36,103 @@ const DigitalJournal = () => {
           about shooting with and developing film. Featured here a several spreads with varying
           layouts.
         </p>
-        <section className='digital-journal-images-container'>
-          <img src={digitalJournalCover} alt="Digital Journal Cover" className='digital-journal-image'/>
-          <img src={digitalJournalS1} alt="Digital Journal Spread 1" className='digital-journal-image'/>
-          <img src={digitalJournalS2} alt="Digital Journal Spread 2" className='digital-journal-image'/>
-          <img src={digitalJournalS3} alt="Digital Journal Spread 3" className='digital-journal-image'/>
-          <img src={digitalJournalS4} alt="Digital Journal Spread 4" className='digital-journal-image'/>
-          <img src={digitalJournalS5} alt="Digital Journal Spread 5" className='digital-journal-image'/>
-          <img src={digitalJournalS6} alt="Digital Journal Spread 6" className='digital-journal-image'/>
-          <img src={digitalJournalS7} alt="Digital Journal Spread 7" className='digital-journal-image'/>
+        <section className='image-container'>
+          <img
+            alt='Digital Journal Cover'
+            src={digitalJournalCover}
+            srcSet={`
+              ${digitalJournalCover} 354w,
+              ${digitalJournalCover_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 1'
+            src={digitalJournalSpread1}
+            srcSet={`
+              ${digitalJournalSpread1} 354w,
+              ${digitalJournalSpread1_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 2'
+            src={digitalJournalSpread2}
+            srcSet={`
+              ${digitalJournalSpread2} 354w,
+              ${digitalJournalSpread2_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 3'
+            src={digitalJournalSpread3}
+            srcSet={`
+              ${digitalJournalSpread3} 354w,
+              ${digitalJournalSpread3_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 4'
+            src={digitalJournalSpread4}
+            srcSet={`
+              ${digitalJournalSpread4} 354w,
+              ${digitalJournalSpread4_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 5'
+            src={digitalJournalSpread5}
+            srcSet={`
+              ${digitalJournalSpread5} 354w,
+              ${digitalJournalSpread5_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 6'
+            src={digitalJournalSpread6}
+            srcSet={`
+              ${digitalJournalSpread6} 354w,
+              ${digitalJournalSpread6_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='Digital Journal Spread 7'
+            src={digitalJournalSpread7}
+            srcSet={`
+              ${digitalJournalSpread7} 354w,
+              ${digitalJournalSpread7_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
         </section>
       </main>
       <footer>

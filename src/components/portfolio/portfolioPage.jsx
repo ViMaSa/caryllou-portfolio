@@ -1,51 +1,101 @@
 import { Link } from "react-router-dom";
-import digitalJournalCover from './portfolioPage-assets/DigitalJournal.png'
-import colliersCover from './portfolioPage-assets/Colliers.png'
-import lifeAquaticCover from './portfolioPage-assets/LifeAquatic.png'
-import trekForTreesCover from './portfolioPage-assets/Trek.png'
+import {
+  portfolioPageColliers,
+  portfolioPageDigitalJournal,
+  portfolioPageLifeAquatic,
+  portfolioPageTrek,
+  portfolioPageColliers_2x,
+  portfolioPageDigitalJournal_2x,
+  portfolioPageLifeAquatic_2x,
+  portfolioPageTrek_2x,
+} from '../../assets/images';
 
 const PortfolioPage = () => {
   return (
     <>
       <main id="portfolio-page-main">
         <Link to='digital-journal'>
-          <section className="project-section slideRight">
+          <section className="project-section slide-right">
             <div className="project-section-heading">
               <p className="project-number">01</p>
               <div className="project-heading-line" />
             </div>
             <p className="project-title">Digital Journal</p>
-            <img src={digitalJournalCover} alt="Digital Journal Cover" />
+            <img
+              alt='Digital Journal Cover'
+              src={portfolioPageDigitalJournal}
+              srcSet={`
+                ${portfolioPageDigitalJournal} 173w,
+                ${portfolioPageDigitalJournal_2x} 346w
+              `}
+              sizes='
+                (max-width: 600px) 173px,
+                346px
+              '
+            />
           </section>
         </Link>
         <Link to='colliers'>
-          <section className="project-section slideLeft">
+          <section className="project-section slide-left">
             <div className="project-section-heading">
               <p className="project-number">02</p>
               <div className="project-heading-line" />
             </div>
             <p className="project-title">Colliers</p>
-            <img src={colliersCover} alt="Colliers Cover" />
+            <img
+              alt='Colliers Cover'
+              src={portfolioPageColliers}
+              srcSet={`
+                ${portfolioPageColliers} 173w,
+                ${portfolioPageColliers_2x} 346w
+              `}
+              sizes='
+                (max-width: 600px) 173px,
+                346px
+              '
+            />
           </section>
         </Link>
         <Link to='trek-for-trees'>
-          <section className="project-section slideRight">
+          <section className="project-section slide-right">
             <div className="project-section-heading">
               <p className="project-number">03</p>
               <div className="project-heading-line" />
             </div>
             <p className="project-title">Trek for Trees</p>
-            <img src={trekForTreesCover} alt="Trek for Trees Cover" />
+            <img
+              alt='Trek for Trees Cover'
+              src={portfolioPageTrek}
+              srcSet={`
+                ${portfolioPageTrek} 173w,
+                ${portfolioPageTrek_2x} 346w
+              `}
+              sizes='
+                (max-width: 600px) 173px,
+                346px
+              '
+            />
           </section>
         </Link>
         <Link to='life-aquatic'>
-          <section className="project-section slideLeft">
+          <section className="project-section slide-left">
             <div className="project-section-heading">
               <p className="project-number">04</p>
               <div className="project-heading-line" />
             </div>
             <p className="project-title">Life Aquatic</p>
-            <img src={lifeAquaticCover} alt="Life Aquatic Cover" />
+            <img
+              alt='Life Aquatic Cover'
+              src={portfolioPageLifeAquatic}
+              srcSet={`
+                ${portfolioPageLifeAquatic} 173w,
+                ${portfolioPageLifeAquatic_2x} 346w
+              `}
+              sizes='
+                (max-width: 600px) 173px,
+                346px
+              '
+            />
           </section>
         </Link>
       </main>

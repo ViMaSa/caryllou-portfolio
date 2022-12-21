@@ -7,8 +7,8 @@ const Home = () => {
     <>
       <Link to='/portfolio'>
         <main className='App'>
-          <p className='spelling slideRight'>caryl lou paayas</p>
-          <p className='annunciation slideLeft'>[ka•reel loo pa•ah•yas]</p>
+          <p className='spelling slide-right'>caryl lou paayas</p>
+          <p className='annunciation slide-left'>[ka•reel loo pa•ah•yas]</p>
             <div className='arrow bounce'>
               <BsArrowDown size={30} id='arrowSvg'/>
             </div>

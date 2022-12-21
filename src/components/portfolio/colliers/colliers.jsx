@@ -1,62 +1,175 @@
 import { Link } from 'react-router-dom';
-import './colliers.scss'
-import brochures from './colliers-assets/brochures.png'
-import eBlast1 from './colliers-assets/Eblasts.png'
-import narrative from './colliers-assets/Narrative.png'
-import eBlast2 from './colliers-assets/Eblast_2.png'
-import group18 from './colliers-assets/Group 18.png'
-import willmoreHoliday from './colliers-assets/WILLMORE_Holiday_GIF.png'
-import happyNewYear2020 from './colliers-assets/WILLMORE_HappyNewYear2021_EMAIL_HQ.png'
-import officeHoliday2020 from './colliers-assets/OFFICE1_HappyHolidays2020_EMAIL_HQ-2.png'
-import monthlyPerkPosters from './colliers-assets/MonthlyPerkPosters.png'
+import {
+  colliersBrochures,
+  colliersBrochures2x,
+  colliersEBlast,
+  colliersEBlast2x,
+  colliersNarrative,
+  colliersNarrative2x,
+  colliersEBlast2,
+  colliersEBlast2_2x,
+  colliersGroup18,
+  colliersGroup18_2x,
+  colliersWillmoreHoliday,
+  colliersWillmoreHoliday2x,
+  colliersHappyNewYear2020,
+  colliersHappyNewYear2020_2x,
+  colliersOfficeHoliday2020,
+  colliersOfficeHoliday2020_2x,
+  colliersMonthlyPerkPosters,
+  colliersMonthlyPerkPosters2x,
+} from '../../../assets/images';
 
 const Colliers = () => {
   return (
     <>
-      <main className='colliers-main'>
+      <main className='project-main'>
         <p className='project-number'>02</p>
         <div className='project-heading-line' />
         <p className='project-title'>Colliers</p>
         <div className='project-heading-line' />
-        <p className='project-description project-description-font'>
+        <p className='project-margin project-description-font'>
           Colliers is a commercial real estate company. As a graphic designer for them, I worked
           with the design manager and brokers to create materials such as brochures, email
           campaigns, social assets, and posters.
         </p>
-        <section className='colliers-images-container'>
-          <img src={brochures} alt='Brochures' className='colliers-image'/>
-          <img src={eBlast1} alt='E-Blasts1' className='colliers-image'/>
+        <section className='image-container'>
+          <img
+            alt='Colliers brochures'
+            src={colliersBrochures}
+            srcSet={`
+              ${colliersBrochures} 354w,
+              ${colliersBrochures2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
+          <img
+            alt='colliers e-blast'
+            src={colliersEBlast}
+            srcSet={`
+              ${colliersEBlast} 354w,
+              ${colliersEBlast2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
         </section>
         <div>
-          <p className='colliers-section-header'>Colliers Branded Projects</p>
-          <p className='colliers-section-description'>
+          <p className='project-section-header'>Colliers Branded Projects</p>
+          <p className='project-section-description'>
             Most marketing materials adhere to branding guidelines. However, the layout of a page
             varies depending on the content provided.
           </p>
         </div>
-        <section className='colliers-images-container'>
-          <img src={narrative} alt='Narrative' className='colliers-image'/>
-          <img src={eBlast2} alt='E-Blasts2' className='colliers-image'/>
-          <img src={group18} alt='Group 18' className='colliers-image'/>
+        <section className='image-container'>
+          <div className='image-container-row'>
+            <img
+              alt='colliers narrative'
+              src={colliersNarrative}
+              srcSet={`
+                ${colliersNarrative} 354w,
+                ${colliersNarrative2x} 708w
+              `}
+              sizes='
+                (max-width: 600px) 354px,
+                708px
+              '
+            />
+            <img
+              alt='colliers e-blast2'
+              src={colliersEBlast2}
+              srcSet={`
+                ${colliersEBlast2} 354w,
+                ${colliersEBlast2_2x} 708w
+              `}
+              sizes='
+                (max-width: 600px) 354px,
+                708px
+              '
+            />
+          </div>
+          <img
+            alt='colliers group 18'
+            src={colliersGroup18}
+            srcSet={`
+              ${colliersGroup18} 354w,
+              ${colliersGroup18_2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
         </section>
         <div>
-          <p className='colliers-section-header'>Custom Projects</p>
-          <p className='colliers-section-description'>
+          <p className='project-section-header'>Custom Projects</p>
+          <p className='project-section-description'>
             Properties receive custom marketing collaterals depending on factors such as price,
             building size, location, or who the client is.
           </p>
         </div>
-        <section className='colliers-images-container'>
-          <img src={willmoreHoliday} alt='Willmore Holiday' className='colliers-image'/>
-          <div className='image-container-short'>
-            <img src={happyNewYear2020} alt='Happy New Year 2020' className='colliers-image'/>
-            <img src={officeHoliday2020} alt='Office Holiday 2020' className='colliers-image'/>
+        <section className='image-container'>
+          <div className='image-container-row'>
+            <img
+              alt='colliers willmore holiday'
+              src={colliersWillmoreHoliday}
+              srcSet={`
+                ${colliersWillmoreHoliday} 354w,
+                ${colliersWillmoreHoliday2x} 708w
+              `}
+              sizes='
+                (max-width: 600px) 354px,
+                708px
+              '
+            />
+            <div className='image-container-short'>
+              <img
+                alt='colliers happy new year 2020'
+                src={colliersHappyNewYear2020}
+                srcSet={`
+                  ${colliersHappyNewYear2020} 172w,
+                  ${colliersHappyNewYear2020_2x} 344w
+                `}
+                sizes='
+                  (max-width: 600px) 172px,
+                  344px
+                '
+              />
+              <img
+                alt='colliers office holiday 2020'
+                src={colliersOfficeHoliday2020}
+                srcSet={`
+                  ${colliersOfficeHoliday2020} 172w,
+                  ${colliersOfficeHoliday2020_2x} 344w
+                `}
+                sizes='
+                  (max-width: 600px) 172px,
+                  344px
+                '
+              />
+            </div>
           </div>
-          <img src={monthlyPerkPosters} alt='Monthly Perk Poster' className='colliers-image'/>
+          <img
+            alt='colliers monthly perk poster'
+            src={colliersMonthlyPerkPosters}
+            srcSet={`
+              ${colliersMonthlyPerkPosters} 354w,
+              ${colliersMonthlyPerkPosters2x} 708w
+            `}
+            sizes='
+              (max-width: 600px) 354px,
+              708px
+            '
+          />
         </section>
         <div>
-          <p className='colliers-section-header'>In-House Projects</p>
-          <p className='colliers-section-description'>
+          <p className='project-section-header'>In-House Projects</p>
+          <p className='project-section-description'>
             In-house projects consisted of posters of events happening in the office. It also
             includes social assets created for different broker teams, such as holiday greetings.
           </p>

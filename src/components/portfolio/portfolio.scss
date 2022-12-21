@@ -6,6 +6,30 @@
   min-height: 100vh;
 }
 
+.project-description-font {
+  font: normal normal 300 16px/19px 'Nunito', sans-serif;
+  letter-spacing: 0.4px;
+  color: #484848;
+  opacity: 1;
+  text-align: center;
+}
+
+.project-heading-line {
+  border: 1px solid #A5B49D;
+  opacity: 1;
+  width: 40%;
+  max-width: 10rem;
+}
+
+.project-main {
+  margin: 3.5rem 2rem;
+  min-height: 100vh;
+}
+
+.project-margin {
+  margin: 2rem 0 4rem 0;
+}
+
 .project-number {
   font: normal normal normal 49px/69px Garamond;
   letter-spacing: 0px;
@@ -20,4 +44,22 @@
   color: #484848;
   margin: 1rem 0;
   opacity: 1;
+}
+
+.project-section-header {
+  text-align: center;
+  font: normal normal bold 16px/19px 'Nunito', sans-serif;
+  letter-spacing: 0.4px;
+  color: #484848;
+  opacity: 1;
+  margin: 1rem 0;
+}
+
+.project-section-description {
+  font: normal normal 300 16px/19px 'Nunito', sans-serif;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #484848;
+  opacity: 1;
+  margin-bottom: 2rem;
 }

@@ -1,6 +1,5 @@
 import './portfolio.scss';
 import { Outlet, Route, Routes } from 'react-router-dom';
-
 import Colliers from './colliers/colliers';
 import DigitalJournal from './digitalJournal/digitalJournal';
 import LifeAquatic from './lifeAquatic/lifeAquatic';
