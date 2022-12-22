@@ -19,6 +19,14 @@
   color: #61dafb;
 }
 
+.footer-link {
+  text-decoration: underline;
+  font: normal normal normal 16px/22px Garamond;
+  letter-spacing: 0.4px;
+  color: #237198;
+  opacity: 1;
+}
+
 .footer-links-container {
   display: flex;
   flex-direction: row;
@@ -31,6 +39,19 @@
   height: 1rem;
   background: transparent linear-gradient(180deg, #A5B49D 0%, #237198 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font: normal normal 300 14px/20px 'Nunito', sans-serif;
+  letter-spacing: 0.35px;
+  color: #484848;
+  opacity: 1;
+  margin-top: 3rem;
 }
 
 .image-container {
@@ -55,11 +76,28 @@
   flex-direction: column;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .rectangle {
+  margin: 1rem 0;
+}
+
 .rectangle {
   border: 1px solid #A5B49D;
   margin: 0 70px;
   min-width: 220px;
   opacity: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 ////////////////////////////////////////////////////////////

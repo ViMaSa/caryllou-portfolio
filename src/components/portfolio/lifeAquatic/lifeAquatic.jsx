@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import {
   lifeAquaticLogoMock,
   lifeAquaticLogoMock2x,
@@ -6,17 +5,18 @@ import {
   lifeAquaticPoster2x,
   lifeAquaticStationery,
   lifeAquaticStationery2x,
-} from '../../../assets/images';
+} from "../../../assets/images";
+import FooterLinks from "../../footer/footer";
 
 const LifeAquatic = () => {
   return (
     <>
-      <main className='project-main'>
-        <p className='project-number'>04</p>
-        <div className='project-heading-line' />
-        <p className='project-title'>Life Aquatic</p>
-        <div className='project-heading-line' />
-        <p className='project-margin project-description-font'>
+      <main className="project-main">
+        <p className="project-number slide-right">04</p>
+        <div className="project-heading-line slide-left" />
+        <p className="project-title slide-right">Life Aquatic</p>
+        <div className="project-heading-line slide-left" />
+        <p className="project-margin project-description-font">
           <em>Student Project</em><br /><br />
           <strong>Brief: </strong>
           Choose from one of many of Las Vegas’ entertainment/venue and rebrand it, creating your
@@ -25,8 +25,8 @@ const LifeAquatic = () => {
           Rebrand Mandalay Bay’s Shark Reef Aquarium into the LIFE AQUATIC. It brings to life Wes
           Anderson’s 2004 film, The Life Aquatic with Steve Zissou.
         </p>
-        <p className='project-section-header'>Branding & Identity</p>
-        <div className='image-container'>
+        <p className="project-section-header">Branding & Identity</p>
+        <div className="image-container">
           <img
             alt="Life Aquatic logo mock"
             src={lifeAquaticLogoMock}
@@ -34,10 +34,10 @@ const LifeAquatic = () => {
               ${lifeAquaticLogoMock} 354w,
               ${lifeAquaticLogoMock2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
             alt="Life Aquatic Stationery"
@@ -46,10 +46,10 @@ const LifeAquatic = () => {
               ${lifeAquaticStationery} 354w,
               ${lifeAquaticStationery2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
             alt="Life Aquatic Poster"
@@ -58,28 +58,19 @@ const LifeAquatic = () => {
               ${lifeAquaticPoster} 354w,
               ${lifeAquaticPoster2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
         </div>
       </main>
-      <footer>
-          <footer className='footer-links-container'>
-            <span>
-              <Link to='/portfolio/trek-for-trees'>
-                <p className='footer-link'>{'<< 03. Trek for Trees'}</p>
-              </Link>
-            </span>
-            <span>
-              <Link to='/portfolio'>
-                <p className='footer-link'>{'Portfolio >>'}</p>
-              </Link>
-            </span>
-          </footer>
-          <div className='footer-rectangle'/>
-        </footer>
+      <FooterLinks
+        leftLinkPath = "/portfolio/trek-for-trees"
+        leftLinkText = "<< 03. Trek for Trees"
+        rightLinkPath = "/portfolio"
+        rightLinkText = "Portfolio >>"
+      />
     </>
   )
 }

@@ -1,5 +1,5 @@
-import './about.scss';
-import { Link } from 'react-router-dom';
+import "./about.scss";
+import FooterLinks from "../footer/footer";
 import {
   aboutCandid,
   aboutCandid_2x,
@@ -7,29 +7,29 @@ import {
   instagramIcon,
   linkedInIcon,
   behanceIcon,
-} from '../../assets/images';
+} from "../../assets/images";
 
 const About = () => {
   return (
     <>
       <main>
-        <div id='candid-container'>
+        <div id="candid-container">
           <img
-            alt='Caryl Lou Paayas'
+            alt="Caryl Lou Paayas"
             src={aboutCandid}
             srcSet={`
               ${aboutCandid} 428w,
               ${aboutCandid_2x} 856w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 428px,
               856px
-            '
+            "
           />
         </div>
         <section>
-          <p id='about-heading'>hey, hi, hello!</p>
-          <p id='about-description'>
+          <p id="about-heading">hey, hi, hello!</p>
+          <p id="about-description">
             My name is Caryl Lou and I am a graphic designer. I love all things design, but have
             a strong interest in editorial and publication design. Currently, I am learning about
             UX/UI design. I am always eager for opportunities to learn more about design and to
@@ -40,25 +40,22 @@ const About = () => {
             Based in Las Vegas, NV.
           </p>
         </section>
-        <div className='rectangle'></div>
+        <div className="rectangle"></div>
       </main>
       <footer>
         <p>Find me here:</p>
-        <div className='socials-container'>
-          <a href='mailto: clpaayas@gmail.com'><img src={emailIcon} alt="E-mail icon" /></a>
-          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'><img src={instagramIcon} alt='Instagram icon' /></a>
-          <a href='https://www.linkedin.com/' target='_blank' rel='noreferrer'><img src={linkedInIcon} alt='LinkedIn icon' /></a>
-          <a href='https://www.behance.net/' target='_blank' rel='noreferrer'><img src={behanceIcon} alt='Behance icon' /></a>
+        <div className="socials-container">
+          <a href="mailto: clpaayas@gmail.com"><img src={emailIcon} alt="E-mail icon" /></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={instagramIcon} alt="Instagram icon" /></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><img src={linkedInIcon} alt="LinkedIn icon" /></a>
+          <a href="https://www.behance.net/" target="_blank" rel="noreferrer"><img src={behanceIcon} alt="Behance icon" /></a>
         </div>
-        <div className='footer-links-container'>
-          <span>
-            <Link to='/portfolio'><p className='footer-link'>portfolio</p></Link>
-          </span>
-          <span>
-            <Link to='/resume'><p className='footer-link'>resume</p></Link>
-          </span>
-        </div>
-        <div className='footer-rectangle'/>
+        <FooterLinks
+          leftLinkPath="/resume"
+          leftLinkText="resume"
+          rightLinkPath="/portfolio"
+          rightLinkText="portfolio"
+        />
       </footer>
     </>
   )

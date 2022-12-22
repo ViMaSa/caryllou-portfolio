@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import FooterLinks from "../footer/footer";
+import ProjectColumn from "./projectColumn/projectColumn";
 import {
   portfolioPageColliers,
   portfolioPageDigitalJournal,
@@ -8,106 +9,75 @@ import {
   portfolioPageDigitalJournal_2x,
   portfolioPageLifeAquatic_2x,
   portfolioPageTrek_2x,
-} from '../../assets/images';
+} from "../../assets/images";
 
 const PortfolioPage = () => {
   return (
     <>
       <main id="portfolio-page-main">
-        <Link to='digital-journal'>
-          <section className="project-section slide-right">
-            <div className="project-section-heading">
-              <p className="project-number">01</p>
-              <div className="project-heading-line" />
-            </div>
-            <p className="project-title">Digital Journal</p>
-            <img
-              alt='Digital Journal Cover'
-              src={portfolioPageDigitalJournal}
-              srcSet={`
-                ${portfolioPageDigitalJournal} 173w,
-                ${portfolioPageDigitalJournal_2x} 346w
-              `}
-              sizes='
-                (max-width: 600px) 173px,
-                346px
-              '
-            />
-          </section>
-        </Link>
-        <Link to='colliers'>
-          <section className="project-section slide-left">
-            <div className="project-section-heading">
-              <p className="project-number">02</p>
-              <div className="project-heading-line" />
-            </div>
-            <p className="project-title">Colliers</p>
-            <img
-              alt='Colliers Cover'
-              src={portfolioPageColliers}
-              srcSet={`
-                ${portfolioPageColliers} 173w,
-                ${portfolioPageColliers_2x} 346w
-              `}
-              sizes='
-                (max-width: 600px) 173px,
-                346px
-              '
-            />
-          </section>
-        </Link>
-        <Link to='trek-for-trees'>
-          <section className="project-section slide-right">
-            <div className="project-section-heading">
-              <p className="project-number">03</p>
-              <div className="project-heading-line" />
-            </div>
-            <p className="project-title">Trek for Trees</p>
-            <img
-              alt='Trek for Trees Cover'
-              src={portfolioPageTrek}
-              srcSet={`
-                ${portfolioPageTrek} 173w,
-                ${portfolioPageTrek_2x} 346w
-              `}
-              sizes='
-                (max-width: 600px) 173px,
-                346px
-              '
-            />
-          </section>
-        </Link>
-        <Link to='life-aquatic'>
-          <section className="project-section slide-left">
-            <div className="project-section-heading">
-              <p className="project-number">04</p>
-              <div className="project-heading-line" />
-            </div>
-            <p className="project-title">Life Aquatic</p>
-            <img
-              alt='Life Aquatic Cover'
-              src={portfolioPageLifeAquatic}
-              srcSet={`
-                ${portfolioPageLifeAquatic} 173w,
-                ${portfolioPageLifeAquatic_2x} 346w
-              `}
-              sizes='
-                (max-width: 600px) 173px,
-                346px
-              '
-            />
-          </section>
-        </Link>
+        <ProjectColumn
+          linkPath={"digital-journal"}
+          projectDetails={{
+            title: "Digital Journal",
+            number: "01",
+            slideDirection: "left"
+          }}
+          imageDetails={{
+            imgAlt: "Digital Journal Cover",
+            imgSrc: portfolioPageDigitalJournal,
+            imgSmall: portfolioPageDigitalJournal,
+            imgLarge: portfolioPageDigitalJournal_2x
+          }}
+        />
+        <ProjectColumn
+          linkPath={"colliers"}
+          projectDetails={{
+            title: "Colliers",
+            number: "02",
+            slideDirection: "right"
+          }}
+          imageDetails={{
+            imgAlt: "Colliers Cover",
+            imgSrc: portfolioPageColliers,
+            imgSmall: portfolioPageColliers,
+            imgLarge: portfolioPageColliers_2x
+          }}
+        />
+        <ProjectColumn
+          linkPath={"trek-for-trees"}
+          projectDetails={{
+            title: "Trek for Trees",
+            number: "03",
+            slideDirection: "left"
+          }}
+          imageDetails={{
+            imgAlt: "Trek for Trees Cover",
+            imgSrc: portfolioPageTrek,
+            imgSmall: portfolioPageTrek,
+            imgLarge: portfolioPageTrek_2x
+          }}
+        />
+        <ProjectColumn
+          linkPath={"life-aquatic"}
+          projectDetails={{
+            title: "Life Aquatic",
+            number: "04",
+            slideDirection: "right"
+          }}
+          imageDetails={{
+            imgAlt: "Life Aquatic Cover",
+            imgSrc: portfolioPageLifeAquatic,
+            imgSmall: portfolioPageLifeAquatic,
+            imgLarge: portfolioPageLifeAquatic_2x
+          }}
+        />
       </main>
-      <footer className='footer-links-container'>
-        <span>
-          <Link to='/about'><p className='footer-link'>about</p></Link>
-        </span>
-        <span>
-          <Link to='/resume'><p className='footer-link'>resume</p></Link>
-        </span>
-      </footer>
-      <div className='footer-rectangle'/>
+      <FooterLinks
+        leftLinkPath ="/about"
+        leftLinkText ="about"
+        rightLinkPath ="/resume"
+        rightLinkText ="resume"
+      />
     </>
   )
 }

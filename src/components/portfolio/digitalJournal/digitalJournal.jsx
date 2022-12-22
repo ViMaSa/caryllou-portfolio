@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import FooterLinks from "../../footer/footer";
 import {
   digitalJournalCover,
   digitalJournalSpread1,
@@ -16,17 +16,17 @@ import {
   digitalJournalSpread5_2x,
   digitalJournalSpread6_2x,
   digitalJournalSpread7_2x,
-} from '../../../assets/images';
+} from "../../../assets/images";
 
 const DigitalJournal = () => {
   return (
     <>
-      <main className='project-main'>
-        <p className="project-number">01</p>
-        <div className="project-heading-line" />
-        <p className="project-title">Digital Journal</p>
-        <div className="project-heading-line" />
-        <p className='project-margin project-description-font'>
+      <main className="project-main">
+        <p className="project-number slide-right">01</p>
+        <div className="project-heading-line slide-left" />
+        <p className="project-title slide-right">Digital Journal</p>
+        <div className="project-heading-line slide-left" />
+        <p className="project-margin project-description-font">
           This is a passion project that documents 2021.
           <br /><br />
           My goal was to design as much as possible in my free time and to explore design
@@ -36,116 +36,111 @@ const DigitalJournal = () => {
           about shooting with and developing film. Featured here a several spreads with varying
           layouts.
         </p>
-        <section className='image-container'>
+        <section className="image-container">
           <img
-            alt='Digital Journal Cover'
+            alt="Digital Journal Cover"
             src={digitalJournalCover}
             srcSet={`
               ${digitalJournalCover} 354w,
               ${digitalJournalCover_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 1'
+            alt="Digital Journal Spread 1"
             src={digitalJournalSpread1}
             srcSet={`
               ${digitalJournalSpread1} 354w,
               ${digitalJournalSpread1_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 2'
+            alt="Digital Journal Spread 2"
             src={digitalJournalSpread2}
             srcSet={`
               ${digitalJournalSpread2} 354w,
               ${digitalJournalSpread2_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 3'
+            alt="Digital Journal Spread 3"
             src={digitalJournalSpread3}
             srcSet={`
               ${digitalJournalSpread3} 354w,
               ${digitalJournalSpread3_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 4'
+            alt="Digital Journal Spread 4"
             src={digitalJournalSpread4}
             srcSet={`
               ${digitalJournalSpread4} 354w,
               ${digitalJournalSpread4_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 5'
+            alt="Digital Journal Spread 5"
             src={digitalJournalSpread5}
             srcSet={`
               ${digitalJournalSpread5} 354w,
               ${digitalJournalSpread5_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 6'
+            alt="Digital Journal Spread 6"
             src={digitalJournalSpread6}
             srcSet={`
               ${digitalJournalSpread6} 354w,
               ${digitalJournalSpread6_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
           <img
-            alt='Digital Journal Spread 7'
+            alt="Digital Journal Spread 7"
             src={digitalJournalSpread7}
             srcSet={`
               ${digitalJournalSpread7} 354w,
               ${digitalJournalSpread7_2x} 708w
             `}
-            sizes='
+            sizes="
               (max-width: 600px) 354px,
               708px
-            '
+            "
           />
         </section>
       </main>
-      <footer>
-        <footer className='footer-links-container'>
-          <span>
-            <Link to='/portfolio'><p className='footer-link'>{'<< Portfolio'}</p></Link>
-          </span>
-          <span>
-            <Link to='/portfolio/colliers'><p className='footer-link'>{'2.Colliers >>'}</p></Link>
-          </span>
-        </footer>
-        <div className='footer-rectangle'/>
-      </footer>
+      <FooterLinks
+        leftLinkPath = "/portfolio"
+        leftLinkText = "<< Portfolio"
+        rightLinkPath = "/portfolio/colliers"
+        rightLinkText = "02. Colliers >>"
+      />
     </>
   )
 }

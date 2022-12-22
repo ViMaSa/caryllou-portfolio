@@ -1,9 +1,9 @@
-import './layout.scss';
-import { Link, Outlet } from 'react-router-dom';
-import ReactModal from 'react-modal';
-import { useState } from 'react';
+import "./layout.scss";
+import { Link, Outlet } from "react-router-dom";
+import ReactModal from "react-modal";
+import { useState } from "react";
 
-ReactModal.setAppElement('#root')
+ReactModal.setAppElement("#root")
 
 const Layout = () => {
   const [ modalIsOpen, setIsOpen ] = useState(false);
@@ -13,11 +13,11 @@ const Layout = () => {
   }
 
   const onAfterOpen = () => {
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   }
 
   const onAfterClose = () => {
-    document.body.style.overflow = 'unset';
+    document.body.style.overflow = "unset";
   }
 
   const closeModal = () => {
@@ -27,34 +27,34 @@ const Layout = () => {
   return (
     <>
       <nav>
-        <div className='homeButton'>
-          <Link to='/' ><p>clp.</p></Link>
+        <div className="homeButton">
+          <Link to="/" ><p>clp.</p></Link>
         </div>
-        <div className='menu-bars-container' onClick={openModal}>
-          <div className='menu-bar' />
-          <div className='menu-bar' />
-          <div className='menu-bar' />
+        <div className="menu-bars-container" onClick={openModal}>
+          <div className="menu-bar" />
+          <div className="menu-bar" />
+          <div className="menu-bar" />
         </div>
         <ReactModal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           onAfterOpen={onAfterOpen}
           onAfterClose={onAfterClose}
-          className='Modal'
-          overlayClassName='Overlay'
-          contentLabel='Example Modal'
+          className="Modal"
+          overlayClassName="Overlay"
+          contentLabel="Example Modal"
         >
           <ul>
             <li onClick={closeModal}>
-              <Link to='/portfolio' className='modal-font'>Portfolio</Link>
+              <Link to="/portfolio" className="modal-font">Portfolio</Link>
             </li>
             <li onClick={closeModal}>
-              <Link to='/resume' className='modal-font'>Resume</Link>
+              <Link to="/resume" className="modal-font">Resume</Link>
             </li>
             <li onClick={closeModal}>
-              <Link to='/about' className='modal-font'>About</Link>
+              <Link to="/about" className="modal-font">About</Link>
             </li>
-            <p onClick={closeModal} className='modal-font'>X</p>
+            <p onClick={closeModal} className="modal-font">X</p>
           </ul>
         </ReactModal>
       </nav>
