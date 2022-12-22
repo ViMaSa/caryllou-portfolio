@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caryllou-portfolio/static/css/main.8cca2c23.css",
-    "main.js": "/caryllou-portfolio/static/js/main.19baba04.js",
+    "main.css": "/caryllou-portfolio/static/css/main.fc7d9d26.css",
+    "main.js": "/caryllou-portfolio/static/js/main.0c94e876.js",
     "static/js/787.354e3171.chunk.js": "/caryllou-portfolio/static/js/787.354e3171.chunk.js",
     "static/media/about_2x.png": "/caryllou-portfolio/static/media/about_2x.9ee100b2f27debd111d4.png",
     "static/media/Spread3_2x.png": "/caryllou-portfolio/static/media/Spread3_2x.c62e62fd98e33a0a83bf.png",
@@ -73,12 +73,12 @@
     "index.html": "/caryllou-portfolio/index.html",
     "static/media/Icon feather-mail.svg": "/caryllou-portfolio/static/media/Icon feather-mail.f62b3dcad5cbbb7fda243ee985c238d2.svg",
     "static/media/Icon awesome-linkedin.svg": "/caryllou-portfolio/static/media/Icon awesome-linkedin.03dced1b215ea8a12540db653a6c1f68.svg",
-    "main.8cca2c23.css.map": "/caryllou-portfolio/static/css/main.8cca2c23.css.map",
-    "main.19baba04.js.map": "/caryllou-portfolio/static/js/main.19baba04.js.map",
+    "main.fc7d9d26.css.map": "/caryllou-portfolio/static/css/main.fc7d9d26.css.map",
+    "main.0c94e876.js.map": "/caryllou-portfolio/static/js/main.0c94e876.js.map",
     "787.354e3171.chunk.js.map": "/caryllou-portfolio/static/js/787.354e3171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cca2c23.css",
-    "static/js/main.19baba04.js"
+    "static/css/main.fc7d9d26.css",
+    "static/js/main.0c94e876.js"
   ]
 }
