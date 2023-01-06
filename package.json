@@ -5,8 +5,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,7 +26,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "globals": {
+      "renderWithRouter": "readonly"
+    }
   },
   "browserslist": {
     "production": [
@@ -43,6 +44,9 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.19.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "gh-pages": "^4.0.0"
   }
 }

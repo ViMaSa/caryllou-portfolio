@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import ReactModal from "react-modal";
 import { useState } from "react";
 
-ReactModal.setAppElement("#root")
+ReactModal.setAppElement("body")
 
 const Layout = () => {
   const [ modalIsOpen, setIsOpen ] = useState(false);

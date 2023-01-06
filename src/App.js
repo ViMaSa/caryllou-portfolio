@@ -1,5 +1,5 @@
 import './App.scss';
-import { Route, Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import About from './components/about/about';
 import Home from './components/home/home';
@@ -10,7 +10,7 @@ import Resume from './components/resume/resume';
 
 function App() {
   return (
-    <div>
+    <>
       <Routes>
         <Route path='' element={<Home />} />
         <Route path='/' element={<Layout />}>
@@ -20,7 +20,7 @@ function App() {
           <Route path='*' element={<NoMatch />} />
         </Route>
       </Routes>
-    </div>
+    </>
   );
 }
 

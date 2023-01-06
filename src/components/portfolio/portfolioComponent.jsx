@@ -10,7 +10,6 @@ import TrekForTrees from "./trekForTrees/trekForTrees";
 const Portfolio = () => {
   return (
     <>
-      <Outlet />
       <Routes>
         <Route path="" element={<PortfolioPage />} />
         <Route path="colliers" element={<Colliers />} />
@@ -19,6 +18,7 @@ const Portfolio = () => {
         <Route path="life-aquatic" element={<LifeAquatic />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
+      <Outlet />
     </>
   )
 }

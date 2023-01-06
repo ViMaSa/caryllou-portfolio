@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Caryl Lou Paayas - Graphic Designer Portfolio Page V1
+Site is hosted on github pages. This can be transferred to a custom website link once provided.
+Link: https://vimasa.github.io/caryllou-portfolio/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# What could I improve the next time?
+- Create standard css across all pages before coding and following them instead of creating/adding css as I create each page.
+- Start with unit testing first for components/link redirection
 
-## Available Scripts
+# Concepts I've learned creating this portfolio page:
+- Take mock designs given to me by Caryllou and bring it to life: https://xd.adobe.com/view/ea0b3d61-66e8-4dd3-81d6-433f41a65a8e-bf58/screen/9e12e93b-0e1a-4dac-bb13-977c33e51dda
+  - Mobile first design
+  - Ensure site is responsive
 
-In the project directory, you can run:
+- Learned how to deploy/host on Github Pages
+- Learned CSS animations
+- Imported fonts through google fonts & downloaded font file
+- Created modal for menu bars & link to different "pages"(components)
+- Refactor footer, project columns, and SCSS to follow Don't Repeat Yourself (DRY) principle
 
-### `npm start`
+- Learned how to use hashrouter:
+  - Using layout to persist the navigation bar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Imported image assets using an index.js file and only importing images based on each "page" (component) being rendered:
+  - Image sizing based on window screen size
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Unit Testing:
+  - Learned to use global function in Jest unit tests (renderWithRouter)
+  - Test for correct route landing page and incorrect landing page
+  - Also still in progress...
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Note - Able to email Caryllou when clicking the email button but she does not have social media links for her Instagram and other socials yet.
